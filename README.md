@@ -7,13 +7,13 @@ Daha detaylı bilgiye ve yazılım projesini çalıştırma adımlarına aşağ�
 
 ### Geliştirme ortamı için
 
-~$ npm run dev
+    ~$ npm run dev
 
 
 ### Asıl çalışma ortamı için
 
-~$ npm run build
-~$ npm start
+    ~$ npm run build
+    ~$ npm start
 
 Uygulamaya localhost:3000 üzerinden ulaşabilirsiniz.
 
