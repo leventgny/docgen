@@ -15,6 +15,6 @@ Daha detaylı bilgiye ve yazılım projesini çalıştırma adımlarına aşağ�
     ~$ npm run build
     ~$ npm start
 
-Uygulamaya *localhost:3000* üzerinden ulaşabilirsiniz.
+Uygulamaya **localhost:3000** üzerinden ulaşabilirsiniz.
 
 
