@@ -1,6 +1,9 @@
 import { GoogleGenerativeAI } from '@google/generative-ai'
 import { NextApiRequest, NextApiResponse } from "next"
 import PDFDocument from 'pdfkit'
+import DotEnv from 'dotenv'
+
+DotEnv.config()
 
 export default async function handler(
     req: NextApiRequest,
@@ -12,8 +15,8 @@ export default async function handler(
     })
     pdf.fontSize(14).font('src/fonts/OpenSans.ttf')
 
-    const genAI = new GoogleGenerativeAI("AIzaSyDmcBwQlC4czWNhwPgcSGTxo2aRIHW12Wc");
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || 'SAMPLE_API_KEY' );
+    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
     const prompt = "Bana örnek bir yazılım projesi dökümantasyonu sağlayabilir misin?";
 

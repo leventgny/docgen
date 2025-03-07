@@ -5,6 +5,11 @@ Sözkonusu içerik proje ve belge yönetimine dair bir test yazılımından olu�
 Daha detaylı bilgiye ve yazılım projesini çalıştırma adımlarına aşağıdan ulaşabilirsiniz;
 
 
+### Google API Key
+
+    file: .env
+    GOOGLE_API_KEY=<GEÇERLİ_BİR_UYGULAMA_KODU>
+
 ### Geliştirme ortamı için
 
     ~$ npm install
