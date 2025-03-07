@@ -7,11 +7,13 @@ Daha detaylı bilgiye ve yazılım projesini çalıştırma adımlarına aşağ�
 
 ### Geliştirme ortamı için
 
+    ~$ npm install
     ~$ npm run dev
 
 
 ### Asıl çalışma ortamı için
 
+    ~$ npm install
     ~$ npm run build
     ~$ npm start
 
